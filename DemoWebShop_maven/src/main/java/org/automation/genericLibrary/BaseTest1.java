@@ -22,6 +22,12 @@ public class BaseTest1
 	DataUtility data_Utility = new DataUtility();
 	public HomePage home_Page;
 	public LoginPage login_Page;
+	
+	//
+	//
+	//Changes done By Monish
+	//
+	//
 	@Parameters("Browser")
 	@BeforeClass(alwaysRun = true)
 	public void launchBrowser(@Optional("Chrome") String browserName) throws IOException
