@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 07 14:58:25 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63610 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.automation.testScripts.CartScriptsTest.cartTestScripts()'><b>cartTestScripts</b><br>Test class: org.automation.testScripts.CartScriptsTest<br/>
+<a href="#Output-845388562" onClick='toggleBox("Output-845388562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-845388562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-845388562">
+Digital Download Page Displayed<br/>
+ShoppingCart Page Displayed<br/>
+All The Products Added To cart<br/>
+All The Products Are Removed<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>org.automation.testScripts.CartScriptsTest@67f639d3</td></tr>
+<tr>
+<td title='org.automation.testScripts.RegisterScriptsTest.registerTestCase()'><b>registerTestCase</b><br>Test class: org.automation.testScripts.RegisterScriptsTest<br>Parameters: Monish, R, monishhraj1112@gmail.com, Monish@123, Monish@123<br/>
+<a href="#Output-376601584" onClick='toggleBox("Output-376601584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-376601584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-376601584">
+Register Page Displayed<br/>
+Registration Successful<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>org.automation.testScripts.RegisterScriptsTest@201a4587</td></tr>
+<tr>
+<td title='org.automation.testScripts.WishListScriptsTest.wishListScripts()'><b>wishListScripts</b><br>Test class: org.automation.testScripts.WishListScriptsTest<br/>
+<a href="#Output-1488298739" onClick='toggleBox("Output-1488298739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1488298739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1488298739">
+Books Page Displayed <br/>
+Fiction Ex Product Displayed<br/>
+FictionEx Displayed in Wishlist Page<br/>
+FictionEx Removed From Wishlist<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>org.automation.testScripts.WishListScriptsTest@61001b64</td></tr>
+<tr>
+<td title='org.automation.testScripts.RegisterScriptsTest.registerTestCase()'><b>registerTestCase</b><br>Test class: org.automation.testScripts.RegisterScriptsTest<br>Parameters: Krishna, K, krishna112@gmail.com, Krishna@123, Krishna@123<br/>
+<a href="#Output-1364058917" onClick='toggleBox("Output-1364058917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1364058917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1364058917">
+Register Page Displayed<br/>
+Registration Successful<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>org.automation.testScripts.RegisterScriptsTest@201a4587</td></tr>
+<tr>
+<td title='org.automation.testScripts.RegisterScriptsTest.registerTestCase()'><b>registerTestCase</b><br>Test class: org.automation.testScripts.RegisterScriptsTest<br>Parameters: Nishanth, N, nishnath12@gmail.com, Nishnath@123, Nishnath@123<br/>
+<a href="#Output-622043416" onClick='toggleBox("Output-622043416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-622043416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-622043416">
+Register Page Displayed<br/>
+Registration Successful<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>org.automation.testScripts.RegisterScriptsTest@201a4587</td></tr>
+</table><p>
+</body>
+</html>
